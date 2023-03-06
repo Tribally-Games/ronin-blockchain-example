@@ -1,8 +1,11 @@
 # Fetching burnt SLP transactions from Ronin
 
+## Prerequisites
+[NVM](https://github.com/nvm-sh/nvm) or Node.js version 16.13.2 installed  
+
 ## Setup
 ```bash
-$ nvm use
+$ nvm use # if you're using NVM
 $ npm install
 $ cat example.env > .env # Then specify the address of the ronin node
 ```
